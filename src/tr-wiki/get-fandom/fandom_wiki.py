@@ -79,7 +79,6 @@ def save(content, filename):
 
 
 def main():
-
     parser = argparse.ArgumentParser()
     parser.add_argument('--wiki', required = True)
     parser.add_argument('--amount', required = True)
